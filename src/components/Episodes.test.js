@@ -1,9 +1,6 @@
 import React from "react";
 import { screen, render } from "@testing-library/react";
 import Episodes from "./Episodes";
-import { fetchShow as mockFetchShow } from "../api/fetchShow";
-
-jest.mock("../api/fetchShow");
 
 const episodesData = [
     {
